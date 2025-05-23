@@ -199,7 +199,7 @@ export default function Home() {
         <div className="text-center text-zinc-500 text-sm mb-4">
           <Button
             variant="ghost"
-            className="flex flex-col items-center gap-2 text-zinc-500 hover:text-white transition-colors"
+            className="flex flex-col items-center gap-2 text-zinc-500 hover:text-black transition-colors"
             onClick={toggleDetalhes}
           >
             <ChevronUp className={`w-6 h-6 transition-transform duration-300 ${mostrarDetalhes ? "rotate-180" : ""}`} />
@@ -211,8 +211,8 @@ export default function Home() {
           <div ref={detalhesRef} className="w-full space-y-6 animate-in slide-in-from-bottom duration-500">
             <Card className="w-full bg-zinc-900 border-zinc-800">
               <CardHeader>
-                <CardTitle className="flex items-center gap-2 text-lg">
-                  <Info className="w-5 h-5" />
+                <CardTitle className="flex items-center gap-2 text-lg text-white">
+                  <Info className="w-5 h-5 text-white" />
                   Sobre esta fase
                 </CardTitle>
               </CardHeader>
@@ -223,8 +223,8 @@ export default function Home() {
 
             <Card className="w-full bg-zinc-900 border-zinc-800">
               <CardHeader>
-                <CardTitle className="flex items-center gap-2 text-lg">
-                  <Calendar className="w-5 h-5" />
+                <CardTitle className="flex items-center gap-2 text-lg text-white">
+                  <Calendar className="w-5 h-5 text-white" />
                   Próxima fase
                 </CardTitle>
               </CardHeader>
@@ -250,8 +250,8 @@ export default function Home() {
 
             <Card className="w-full bg-zinc-900 border-zinc-800">
               <CardHeader>
-                <CardTitle className="flex items-center gap-2 text-lg">
-                  <Moon className="w-5 h-5" />
+                <CardTitle className="flex items-center gap-2 text-lg text-white">
+                  <Moon className="w-5 h-5 text-white" />
                   Curiosidades
                 </CardTitle>
               </CardHeader>
