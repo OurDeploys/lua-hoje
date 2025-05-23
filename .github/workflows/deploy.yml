@@ -33,7 +33,7 @@ jobs:
           static_site_generator: next
           
       - name: Install dependencies
-        run: npm ci
+        run: npm ci --force
         
       - name: Build with Next.js
         run: npm run build
