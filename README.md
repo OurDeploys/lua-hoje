@@ -19,23 +19,6 @@ Um site moderno que mostra a fase atual da lua com informações detalhadas, oti
 3. Execute localmente: `npm run dev`
 4. Para build: `npm run build`
 
-## Deploy no GitHub Pages
-
-1. Ajuste o `basePath` no `next.config.js` com o nome do seu repositório
-2. Faça push para a branch `main`
-3. O GitHub Actions fará o deploy automaticamente
-
-## Configuração para Organização
-
-No arquivo `next.config.js`, ajuste:
-
-\`\`\`js
-basePath: '/NOME-DO-SEU-REPOSITORIO',
-assetPrefix: '/NOME-DO-SEU-REPOSITORIO/',
-\`\`\`
-
-Seu site estará disponível em: `https://SUA-ORGANIZACAO.github.io/NOME-DO-SEU-REPOSITORIO`
-
 ## Tecnologias
 
 - Next.js 14
