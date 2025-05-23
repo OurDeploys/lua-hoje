@@ -199,7 +199,7 @@ export default function Home() {
               </div>
 
               <div className="text-center">
-                <h2 className="text-4xl font-bold mb-2">{luaInfo.fase}</h2>
+                <h2 className="text-4xl font-bold mb-2 text-white">{luaInfo.fase}</h2>
                 <p className="text-xl text-zinc-400">
                   {luaInfo.iluminacao}% de iluminação
                 </p>
